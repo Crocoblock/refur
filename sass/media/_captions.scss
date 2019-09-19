@@ -1,0 +1,32 @@
+.wp-caption {
+	margin-bottom: 20px;
+	max-width: 100%;
+	&:after {
+		clear: both;
+		content: "";
+		width: 100%;
+		display: block;
+	}
+
+	img {
+		display: block;
+	}
+
+	img[class*="wp-image-"] {
+		@include center-block;
+		float: left;
+	}
+
+	.wp-caption-text {
+		background: lighten( $color__link, 30% );
+		padding: 10px 0;
+		margin: 0;
+		font-size: 12px;
+		line-height: 18px;
+		clear: both;
+	}
+}
+
+.wp-caption-text {
+	text-align: center;
+}

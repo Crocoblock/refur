@@ -1,0 +1,259 @@
+.page-header-wrap {
+	position: relative;
+	background-size: cover;
+}
+
+.site-header {
+	padding: 0 0 30px;
+	color: #fff;
+	position: relative;
+	z-index: 99;
+	.showcase-active & {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+	}
+	.static-header.showcase-active & {
+		position: static;
+	}
+	.mobile-static & {
+		position: relative;
+		z-index: 99;
+		top: auto;
+	}
+}
+
+.header-meta {
+	padding: 10px 0;
+	margin: 0 0 30px 0;
+	border-bottom: 1px solid rgba(255,255,255,.2);
+	@media (max-width: 480px) {
+		text-align: center;
+	}
+}
+
+.site-branding {
+	padding: 0;
+	&:after {
+		clear: both;
+		content: "";
+		width: 100%;
+		display: block;
+	}
+	@media (max-width: 768px) {
+		text-align: center;
+	}
+}
+.site-title {
+	padding: 0;
+	margin: 0;
+	font-size: 25px;
+	line-height: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: -2px;
+	float: left;
+	max-width: 100%;
+	@media (max-width: 768px) {
+		float: none;
+		display: inline-block;
+	}
+	a.text-logo {
+		color: #fff;
+		display: block;
+		font-family: $font__headings;
+		text-decoration: none;
+		position: relative;
+		padding: 11px 15px 9px 17px;
+		text-align: center;
+		&:after,
+		&:before {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			height: 12px;
+		}
+		&:before {
+			top: 0;
+			border-top: 2px solid currentColor;
+			border-left: 2px solid currentColor;
+			border-right: 2px solid currentColor;
+		}
+		&:after {
+			bottom: 0;
+			border-bottom: 2px solid currentColor;
+			border-left: 2px solid currentColor;
+			border-right: 2px solid currentColor;
+		}
+	}
+}
+
+.site-description {
+	margin: 0;
+	font-size: 12px;
+	line-height: 20px;
+	clear: both;
+	opacity: .5;
+}
+
+.header-showcase {
+	position: relative;
+	overflow: hidden;
+	.mobile-static & {
+		position: static;
+		overflow: visible;
+	}
+	&.is-subpage {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+	&:after {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		content: "";
+	}
+	&_img {
+		display: block;
+	}
+	&_content {
+		position: absolute;
+		z-index: 20;
+		bottom: 20%;
+		text-align: center;
+		width: 100%;
+		color: #fff;
+		opacity: 0;
+		padding: 25px 0;
+		transition: opacity 800ms ease-out;
+		&.show-in {
+			opacity: 1;
+		}
+	}
+	&_slogan {
+		font-family: $font__headings;
+		padding: 0 0 30px 0;
+		@media (max-width: 900px) {
+			padding: 0 0 10px 0;
+		}
+	}
+	&_title {
+		font-size: 56px;
+		line-height: 58px;
+		padding: 0 0 10px 0;
+		font-weight: bold;
+		@media (max-width: 1200px) {
+			font-size: 36px;
+			line-height: 38px;
+		}
+		@media (max-width: 900px) {
+			font-size: 26px;
+			line-height: 28px;
+		}
+	}
+	&_text {
+		font-family: $font__main;
+		font-size: 22px;
+		line-height: 30px;
+		font-weight: 300;
+		padding: 0;
+		opacity: 0.6;
+		@media (max-width: 1200px) {
+			font-size: 18px;
+			line-height: 24px;
+		}
+		@media (max-width: 900px) {
+			font-size: 14px;
+			line-height: 20px;
+		}
+	}
+	&_btn {
+		border: 2px solid #fff;
+		color: #fff;
+		padding: 16px 24px 15px;
+		text-transform: uppercase;
+		font-size: 20px;
+		line-height: 26px;
+		font-family: $font__headings;
+		text-decoration: none;
+		letter-spacing: 2px;
+		display: inline-block;
+		background: rgba(255,255,255,0);
+		box-shadow: 0 0 1px rgba(255,255,255,0);
+		@media (max-width: 1200px) {
+			font-size: 16px;
+			line-height: 20px;
+			padding: 12px 20px 11px;
+		}
+		@media (max-width: 900px) {
+			font-size: 14px;
+			line-height: 16px;
+			padding: 9px 15px 8px;
+		}
+		&:hover {
+			background: rgba(255,255,255,.1);
+			box-shadow: 0 0 20px rgba(255,255,255,0.3);
+		}
+		&:hover,
+		&:active,
+		&:visited {
+			color: #fff;
+		}
+	}
+
+}
+
+.follow-list {
+	text-align: right;
+	font-size: 0;
+	line-height: 0;
+	@media (max-width: 480px) {
+		text-align: center;
+		padding: 0 0 5px;
+	}
+	&_item {
+		display: inline-block;
+		a {
+			display: block;
+			font-size: 14px;
+			line-height: 20px;
+			padding: 10px;
+			color: rgba(255,255,255,.7);
+			margin: -10px 0;
+			position: relative;
+			.fa {
+				position: relative;
+				z-index: 2;
+			}
+			&:after {
+				position: absolute;
+				z-index: 1;
+				left: 50%;
+				top: 50%;
+				width: 0;
+				height: 0;
+				box-shadow: 0 0 20px 8px rgba(255,255,255,0);
+				transition: box-shadow 200ms ease-out;
+				content: "";
+			}
+			&:hover {
+				color: rgba(255,255,255,1);
+				&:after {
+					box-shadow: 0 0 20px 8px rgba(255,255,255,.5);
+				}
+			}
+			&:active,
+			&:visited {
+				color: rgba(255,255,255,1);
+			}
+		}
+	}
+}

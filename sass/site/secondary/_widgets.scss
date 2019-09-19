@@ -1,0 +1,156 @@
+.widget-area {
+	&.footer-widget-area {
+		padding: 40px 0 20px;
+		background: #fafafa;
+	}
+	.widget {
+		&:nth-child(3n+1) {
+			clear: both;
+		}
+	}
+}
+.widget {
+	margin: 0;
+	padding: 0 0 30px 0;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+
+	&.widget_archive,
+	&.widget_categories,
+	&.widget_pages,
+	&.widget_meta,
+	&.widget_recent_comments,
+	&.widget_recent_entries,
+	&.widget_nav_menu {
+		ul {
+			padding: 0;
+			li {
+				list-style: none;
+				padding: 0 0 5px 20px;
+				position: relative;
+				&:before {
+					position: absolute;
+					top: 0;
+					left: 1px;
+					font-family: FontAwesome;
+					font-size: 14px;
+				}
+			}
+			&.children {
+				padding: 5px 0 0;
+			}
+		}
+		a {
+			text-decoration: none;
+		}
+	}
+	&.widget_archive {
+		ul {
+			li {
+				&:before {
+					content: "\f073";
+				}
+			}
+		}
+		select {
+			width: 100%;
+		}
+	}
+	&.widget_pages {
+		ul {
+			li {
+				&:before {
+					content: "\f0f6";
+				}
+			}
+		}
+	}
+	&.widget_meta {
+		ul {
+			li {
+				&:before {
+					content: "\f013";
+				}
+			}
+		}
+	}
+	&.widget_nav_menu {
+		ul {
+			li {
+				&:before {
+					content: "\f0c9";
+				}
+			}
+		}
+	}
+	&.widget_recent_comments {
+		ul {
+			li {
+				&:before {
+					content: "\f27b";
+				}
+			}
+		}
+	}
+	&.widget_recent_entries {
+		ul {
+			li {
+				&:before {
+					content: "\f016";
+				}
+			}
+		}
+	}
+	&.widget_categories {
+		ul {
+			li {
+				&:before {
+					content: "\f114";
+				}
+			}
+			&.children {
+				li {
+					&:before {
+						content: "\f115";
+					}
+				}
+			}
+		}
+		select {
+			width: 100%;
+		}
+	}
+	&.widget_calendar {
+		text-align: center;
+		th {
+			text-align: center;
+		}
+		a {
+			text-decoration: none;
+			font-weight: bold;
+		}
+	}
+}
+
+.tagcloud {
+	a {
+		font-size: 16px !important;
+		border: 2px solid $color__link;
+		text-decoration: none;
+		display: inline-block;
+		padding: 3px 7px;
+		margin: 0 1px 4px 0;
+		&:hover {
+			color: $color__headings;
+			border-color: $color__headings;
+		}
+	}
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}

@@ -1,0 +1,25 @@
+table {
+	margin: 0 0 30px;
+	width: 100%;
+	max-width: 100%;
+	th {
+		text-align: left;
+		padding: 10px;
+		background: $color__link;
+		color: #fff;
+		a,
+		a:visited,
+		a:active {
+			color: #fff;
+		}
+	}
+	td {
+		padding: 10px;
+		background: lighten( $color__link, 30% );
+	}
+	caption {
+		padding: 10px;
+		background: $color__headings;
+		color: #fff;
+	}
+}

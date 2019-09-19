@@ -1,0 +1,38 @@
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="date"],
+input[type="tel"],
+textarea,
+select {
+	color: $color__text-input;
+	border: 2px solid $color__border-input;
+	border-radius: 0;
+	padding: 8px 10px 9px;
+	outline: none;
+	box-sizing: border-box;
+	max-width: 100%;
+
+	&:focus {
+		color: $color__text-input-focus;
+	}
+}
+
+textarea {
+	width: 100%;
+	resize: vertical;
+}
+
+.post-password-form {
+	input {
+		vertical-align: top;
+	}
+	label {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+}

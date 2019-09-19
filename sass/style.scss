@@ -1,0 +1,124 @@
+/*!
+Theme Name: Refur
+Theme URI: http://www.tefox.net/product/refur/
+Author: teFox
+Author URI: http://www.tefox.net/
+Description: Refur theme from TeFox will be a good solution for your business or blog website as it suits for both. Its minimalistic and mixed layout makes it work for both corporate website and blog one.
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: refur
+Tags: light, fluid-layout, responsive-layout, featured-images, post-formats, sticky-post, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+
+Refur WordPress theme, Copyright (C) 2015-2016, teFox
+Refur is distributed under the terms of the GNU GPL
+
+Refur is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+All theme images (screenshot.png and images/header-image.png) is distributed under the terms of the GNU GPL v2 or Creative Commons Zero (CC0) licenses. Images used for demo and screenshot capture getting from www.pexels.com and released under the CC0 license.
+
+Default header image (header-image.png) source - https://www.pexels.com/photo/night-trees-milky-way-stars-8990/
+
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Header
+	## Posts and pages
+	## Slider
+	## Asides
+	## Comments
+	## Footer
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+	## Popup
+# Layout
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+## Layout
+--------------------------------------------------------------*/
+@import "layout/layout";

@@ -1,0 +1,351 @@
+.main-navigation {
+	clear: both;
+	display: block;
+	width: 100%;
+	text-align: right;
+	padding: 0;
+	@media (max-width: 768px) {
+		text-align: center;
+	}
+
+	ul {
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		ul {
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+			position: absolute;
+			top: 120%;
+			visibility: hidden;
+			opacity: 0;
+			z-index: 99999;
+			transition: 200ms linear;
+			transition-property: top, opacity, visibility;
+			background: rgba(0,0,0,.8);
+			padding: 10px 0;
+			margin: 1px 0 0 0;
+			left: -9999px;
+			@media (max-width: 600px) {
+				position: static;
+				opacity: 1;
+				visibility: visible;
+				box-shadow: none;
+				background: none;
+				padding: 0 0 0 15px;
+				margin: 0;
+				li:before {
+					content: "-";
+					display: inline-block;
+				}
+			}
+			li {
+				> ul {
+					top: 20%;
+					background: rgba(0,0,0,.8);
+					@media (max-width: 600px) {
+						background: none;
+					}
+				}
+				&:hover > ul,
+				&.focus > ul,
+				&.menu-hover > ul {
+					top: -11px;
+					left: 100%;
+				}
+				> ul.in-transition {
+					left: 100%;
+				}
+			}
+
+			a {
+				width: 200px;
+				text-align: left;
+				padding: 8px 15px;
+				color: rgba( 255, 255, 255, .6 );
+				position: relative;
+				@media (max-width: 600px) {
+					padding: 5px 10px;
+					width: 100%;
+				}
+			}
+
+			:hover > a,
+			.focus > a,
+			.menu-hover > a,
+			.current_page_item > a,
+			.current-menu-item > a,
+			.current_page_ancestor > a {
+				color: rgba( 255, 255, 255, 1 );
+			}
+
+			.page_item_has_children,
+			.menu-item-has-children {
+				> a {
+					&:after {
+						content: "\f105";
+						font-family: FontAwesome;
+						position: absolute;
+						right: 8px;
+						font-size: 14px;
+						line-height: 1;
+						@media (max-width: 600px) {
+							content: "\f107";
+							position: static;
+							display: inline-block;
+							margin: 0 0 0 5px;
+							vertical-align: middle;
+						}
+					}
+				}
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul,
+		li.menu-hover > ul {
+			top: 100%;
+			left: 0;
+			visibility: visible;
+			opacity: 1;
+		}
+		li > ul.in-transition {
+			left: 0;
+		}
+
+	}
+
+	ul.menu,
+	div.menu > ul {
+		text-align: right;
+		font-size: 0;
+		line-height: 0;
+		@media (max-width: 768px) {
+			text-align: center;
+		}
+		> li {
+			display: inline-block;
+			margin: 0 0 0 20px;
+			@media (max-width: 992px) {
+				margin: 0 0 0 10px;
+			}
+			@media (max-width: 768px) {
+				margin: 0 5px;
+			}
+			@media (max-width: 600px) {
+				display: block;
+				text-align: left;
+			}
+
+			&:first-child {
+				&:after {
+					display: none;
+					@media (max-width: 600px) {
+						display: block;
+					}
+				}
+			}
+			> a {
+				display: block;
+				padding: 0;
+				color: rgba( 255, 255, 255, .7 );
+				position: relative;
+				text-transform: uppercase;
+				font-size: 15px;
+				line-height: 48px;
+				@media (max-width: 992px) {
+					font-size: 13px;
+				}
+				&:before {
+					left: 50%;
+					right: 50%;
+					content: "";
+					position: absolute;
+					top: 0;
+					bottom: 0;
+					border-top: 1px solid #fff;
+					border-bottom: 1px solid #fff;
+					transition: all 200ms ease-out;
+					opacity: 0;
+				}
+			}
+			&:hover,
+			&.menu-hover,
+			&.current_page_item,
+			&.current-menu-item,
+			&.current_page_ancestor {
+				> a {
+					color: rgba( 255, 255, 255, 1 );
+					&:before {
+						left: 0;
+						right: 0;
+						width: auto;
+						opacity: 1;
+					}
+				}
+			}
+
+			&.page_item_has_children,
+			&.menu-item-has-children {
+				> a {
+					&:after {
+						display: inline-block;
+						content: '\f107';
+						font-family: FontAwesome;
+						margin: 0 3px 0 5px;
+					}
+				}
+			}
+		}
+	}
+	li {
+		position: relative;
+	}
+	a {
+		display: block;
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 1.4;
+	}
+}
+
+/* Small menu. */
+.main-navigation.toggled ul,
+.main-navigation ul {
+	display: block;
+}
+
+button.menu-toggle {
+	display: none;
+	background: none;
+	border: none;
+	box-shadow: none;
+	text-shadow:none;
+	font-size: 14px;
+	padding: 15px 20px;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	margin: 25px 0 0 0;
+	&:before {
+		content: "\f0c9";
+		font-family: FontAwesome;
+		display: inline-block;
+		padding: 0 10px 0 0;
+	}
+	&:hover,
+	&:active,
+	&:focus {
+		box-shadow: none;
+		background: none;
+		color: $color__link;
+		outline: none;
+	}
+	&[aria-expanded="true"] {
+		&:before {
+			content: "\f00d";
+		}
+	}
+}
+
+@media (max-width: 600px) {
+	button.menu-toggle {
+		display: block;
+	}
+	.main-navigation ul {
+		display: none;
+	}
+}
+
+.comment-navigation,
+.posts-navigation,
+.post-navigation {
+
+	.site-main & {
+		margin: 0 0 1.5em;
+		overflow: hidden;
+	}
+
+	.nav-previous {
+		float: left;
+		width: 50%;
+	}
+
+	.nav-next {
+		float: right;
+		text-align: right;
+		width: 50%;
+	}
+}
+
+.navigation {
+	&.pagination {
+		text-align: center;
+	}
+	.nav-links {
+		.page-numbers {
+			border: 2px solid $color__link;
+			padding: 5px;
+			min-width: 40px;
+			line-height: 24px;
+			font-size: 18px;
+			display: inline-block;
+			text-decoration: none;
+			text-align: center;
+			&:hover,
+			&.current {
+				border-color: $color__headings;
+				color: $color__headings;
+			}
+			&.dots {
+				border: none;
+			}
+		}
+	}
+	&.post-navigation {
+		margin: 0;
+		padding: 0 0 30px 0;
+		.nav-links {
+			width: 100%;
+			display: table;
+			background: #fafafa;
+			@media (max-width: 400px) {
+				display: block;
+			}
+			a {
+				display: table-cell;
+				width: 50%;
+				padding: 20px;
+				text-decoration: none;
+				&:hover {
+					background: lighten( $color__link, 30% );
+				}
+				@media (max-width: 400px) {
+					display: block;
+					width: 100%;
+				}
+			}
+			&:after {
+				clear: both;
+				content: "";
+				width: 100%;
+				display: block;
+			}
+			&-label {
+				display: inline-block;
+				font-family: $font__headings;
+				color: $color__headings;
+				border-bottom: 2px solid $color__headings;
+				text-transform: uppercase;
+				font-weight: bold;
+				padding: 0;
+				margin: 0 0 10px 0;
+			}
+			&-title {
+				display: block;
+			}
+		}
+	}
+}

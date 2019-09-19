@@ -1,0 +1,373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Refur\n"
+"POT-Creation-Date: 2016-01-12 22:58+0200\n"
+"PO-Revision-Date: 2016-01-12 22:58+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_attr_e;_n;esc_html_e;esc_html__;"
+"esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:52
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:83
+msgid "Comment*"
+msgstr ""
+
+#: comments.php:84
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:85
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: footer.php:33
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:33
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:35
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:52 header.php:54
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar Main"
+msgstr ""
+
+#: functions.php:119
+msgid "Sidebar Footer"
+msgstr ""
+
+#: functions.php:164 functions.php:171 functions.php:178
+msgid "on"
+msgstr ""
+
+#: functions.php:183
+msgid "latin,latin-ext"
+msgstr ""
+
+#: header.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/custom-header.php:42
+msgid "Your Awesome Blog"
+msgstr ""
+
+#: inc/custom-header.php:43
+msgid "Just a few words why you blog is so awesome"
+msgstr ""
+
+#: inc/custom-header.php:44
+msgid "Call to action"
+msgstr ""
+
+#: inc/custom-header.php:85
+msgid "Image Mask Color"
+msgstr ""
+
+#: inc/custom-header.php:97
+msgid "Image mask fill level"
+msgstr ""
+
+#: inc/custom-header.php:114
+msgid "Header slogan title"
+msgstr ""
+
+#: inc/custom-header.php:126
+msgid "Header slogan description"
+msgstr ""
+
+#: inc/custom-header.php:138
+msgid "Header button text (leave empty to remove button)"
+msgstr ""
+
+#: inc/custom-header.php:150
+msgid "Header button URL"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Header Logo"
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Logo Image"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Featured Content"
+msgstr ""
+
+#: inc/customizer.php:72
+#, php-format
+msgid ""
+"Set icon from FontAwesome icons (pass only icon slug, e.q. cogs or fa-cogs, "
+"avaliabe icons you can find %s)"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "here"
+msgstr ""
+
+#: inc/customizer.php:92
+#, php-format
+msgid "Section %s title"
+msgstr ""
+
+#: inc/customizer.php:105
+#, php-format
+msgid "Section %s icon"
+msgstr ""
+
+#: inc/customizer.php:119
+#, php-format
+msgid "Section %s content"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer.php:141
+msgid "Loop page: show featured image"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Single page: show featured image"
+msgstr ""
+
+#: inc/customizer.php:169
+msgid "Loop page: show read more button"
+msgstr ""
+
+#: inc/customizer.php:178 inc/template-tags.php:422
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Loop page: read more button text"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Set custom copyright text"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid "Header Socials"
+msgstr ""
+
+#: inc/customizer.php:234
+#, php-format
+msgid "Link to %s account:"
+msgstr ""
+
+#: inc/extras.php:35
+msgid "Facebook"
+msgstr ""
+
+#: inc/extras.php:40
+msgid "Twitter"
+msgstr ""
+
+#: inc/extras.php:45
+msgid "Google +"
+msgstr ""
+
+#: inc/extras.php:50
+msgid "Instagram"
+msgstr ""
+
+#: inc/extras.php:55
+msgid "Pinterest"
+msgstr ""
+
+#: inc/extras.php:60
+msgid "Dribbble"
+msgstr ""
+
+#: inc/extras.php:80
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/extras.php:82
+msgid ""
+"All theme strings are ready to be translated. You can add your personal "
+"translation in several minutes."
+msgstr ""
+
+#: inc/extras.php:85
+msgid "Custom Settings"
+msgstr ""
+
+#: inc/extras.php:87
+msgid ""
+"All theme settings are implemented into the native WordPress customizer - "
+"all you need is here, in one place."
+msgstr ""
+
+#: inc/extras.php:90
+msgid "Great Support"
+msgstr ""
+
+#: inc/extras.php:92
+msgid ""
+"We'll help you to resolve any issue you may face with while working with the "
+"theme."
+msgstr ""
+
+#: inc/extras.php:201
+msgid "Pingback:"
+msgstr ""
+
+#: inc/extras.php:201 inc/template-tags.php:183
+#: template-parts/content-page.php:28
+msgid "Edit"
+msgstr ""
+
+#: inc/extras.php:214
+msgid "ago"
+msgstr ""
+
+#: inc/extras.php:231
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/extras.php:254
+msgid "Name"
+msgstr ""
+
+#: inc/extras.php:255
+msgid "Email"
+msgstr ""
+
+#: inc/extras.php:256
+msgid "Website"
+msgstr ""
+
+#: inc/template-tags.php:90 inc/template-tags.php:179
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:90 inc/template-tags.php:179
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:90 inc/template-tags.php:179
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:102 inc/template-tags.php:118
+#: inc/template-tags.php:165 inc/template-tags.php:171
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:104 inc/template-tags.php:167
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:120 inc/template-tags.php:173
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:434 single.php:22
+msgid "Prev"
+msgstr ""
+
+#: inc/template-tags.php:435 single.php:23
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:440
+msgid "Post navigation"
+msgstr ""
+
+#: search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content-single.php:26
+msgid "Pages:"
+msgstr ""
