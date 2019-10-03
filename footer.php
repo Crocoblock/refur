@@ -32,7 +32,7 @@
 				?>
 					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'refur' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'refur' ), 'WordPress' ); ?></a>
 					<span class="sep"> | </span>
-					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'refur' ), 'refur', '<a href="http://www.tefox.net/" rel="designer">teFox</a>' ); ?>
+					<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'refur' ), 'refur', '<a href="https://crocoblock.com/" rel="designer">Crocoblock</a>' ); ?>
 				<?php } ?>
 			</div><!-- .site-info -->
 			</div>

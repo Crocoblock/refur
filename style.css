@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /*!
 Theme Name: Refur
-Theme URI: http://www.tefox.net/product/refur/
-Author: teFox
-Author URI: http://www.tefox.net/
-Description: Refur theme from TeFox will be a good solution for your business or blog website as it suits for both. Its minimalistic and mixed layout makes it work for both corporate website and blog one.
+Theme URI: https://crocoblock.com/
+Author: Crocoblock
+Author URI: https://crocoblock.com/
+Description: Refur theme from Crocoblock will be a good solution for your business or blog website as it suits for both. Its minimalistic and mixed layout makes it work for both corporate website and blog one.
 Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -13,11 +13,11 @@ Tags: light, fluid-layout, responsive-layout, featured-images, post-formats, sti
 
 This theme, like WordPress, is licensed under the GPL.
 
-Refur WordPress theme, Copyright (C) 2015-2016, teFox
+Refur WordPress theme, Copyright (C) 2015-2019, Crocoblock
 Refur is distributed under the terms of the GNU GPL
 
 Refur is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
+Underscores is distributed under the terms of the GNU GPL v2 or later. 
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
@@ -97,8 +97,7 @@ template {
 
 a {
   background-color: transparent;
-  -webkit-transition: all 200ms ease-out;
-          transition: all 200ms ease-out; }
+  transition: all 200ms ease-out; }
 
 a:active,
 a:hover {
@@ -297,7 +296,7 @@ blockquote {
   padding: 20px;
   font-style: italic;
   border-left: 5px solid #75A3D1;
-  background: #e8eff7; }
+  background: #e8f0f7; }
   blockquote cite {
     display: block;
     font-size: .7em;
@@ -353,7 +352,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff
+  background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -391,7 +390,7 @@ dd {
 img {
   height: auto;
   /* Make sure images are scaled correctly. */
-  max-width: 100%
+  max-width: 100%;
   /* Adhere to container width. */ }
 
 table {
@@ -409,7 +408,7 @@ table {
       color: #fff; }
   table td {
     padding: 10px;
-    background: #e8eff7; }
+    background: #e8f0f7; }
   table caption {
     padding: 10px;
     background: #464C51;
@@ -550,10 +549,8 @@ input[type="button"] {
       visibility: hidden;
       opacity: 0;
       z-index: 99999;
-      -webkit-transition: 200ms linear;
-              transition: 200ms linear;
-      -webkit-transition-property: top, opacity, visibility;
-              transition-property: top, opacity, visibility;
+      transition: 200ms linear;
+      transition-property: top, opacity, visibility;
       background: rgba(0, 0, 0, 0.8);
       padding: 10px 0;
       margin: 1px 0 0 0;
@@ -679,8 +676,7 @@ input[type="button"] {
           bottom: 0;
           border-top: 1px solid #fff;
           border-bottom: 1px solid #fff;
-          -webkit-transition: all 200ms ease-out;
-                  transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
           opacity: 0; }
       .main-navigation ul.menu > li:hover > a, .main-navigation ul.menu > li.menu-hover > a, .main-navigation ul.menu > li.current_page_item > a, .main-navigation ul.menu > li.current-menu-item > a, .main-navigation ul.menu > li.current_page_ancestor > a,
       .main-navigation div.menu > ul > li:hover > a,
@@ -800,7 +796,7 @@ button.menu-toggle {
       padding: 20px;
       text-decoration: none; }
       .navigation.post-navigation .nav-links a:hover {
-        background: #e8eff7; }
+        background: #e8f0f7; }
       @media (max-width: 400px) {
         .navigation.post-navigation .nav-links a {
           display: block;
@@ -849,7 +845,7 @@ button.menu-toggle {
     text-decoration: none;
     top: 5px;
     width: auto;
-    z-index: 100000
+    z-index: 100000;
     /* Above WP toolbar. */ }
 
 /*--------------------------------------------------------------
@@ -911,7 +907,7 @@ button.menu-toggle {
 
 .widget {
   margin: 0;
-  padding: 0 0 30px 0
+  padding: 0 0 30px 0;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -1097,8 +1093,7 @@ button.menu-toggle {
     color: #fff;
     opacity: 0;
     padding: 25px 0;
-    -webkit-transition: opacity 800ms ease-out;
-            transition: opacity 800ms ease-out; }
+    transition: opacity 800ms ease-out; }
     .header-showcase_content.show-in {
       opacity: 1; }
   .header-showcase_slogan {
@@ -1193,8 +1188,7 @@ button.menu-toggle {
         width: 0;
         height: 0;
         box-shadow: 0 0 20px 8px rgba(255, 255, 255, 0);
-        -webkit-transition: box-shadow 200ms ease-out;
-                transition: box-shadow 200ms ease-out;
+        transition: box-shadow 200ms ease-out;
         content: ""; }
       .follow-list_item a:hover {
         color: white; }
@@ -1297,8 +1291,7 @@ button.menu-toggle {
     color: #fff;
     cursor: pointer;
     opacity: 0;
-    -webkit-transition: all 200ms linear;
-            transition: all 200ms linear; }
+    transition: all 200ms linear; }
     .entry-gallery-prev:before, .entry-gallery-next:before {
       font-family: FontAwesome; }
     .entry-gallery-prev:hover, .entry-gallery-next:hover {
@@ -1398,7 +1391,6 @@ button.menu-toggle {
   line-height: 30px; }
 
 .posts-listing {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -1413,7 +1405,6 @@ button.menu-toggle {
     display: inline-block;
     vertical-align: top;
     min-width: 300px;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
@@ -1422,7 +1413,6 @@ button.menu-toggle {
             flex-shrink: 1; }
     .posts-listing .hentry.sticky, .posts-listing .hentry.format-gallery, .posts-listing .hentry.format-video {
       width: 66.66666%;
-      -webkit-box-flex: 2;
       -webkit-flex-grow: 2;
           -ms-flex-positive: 2;
               flex-grow: 2;
@@ -1489,13 +1479,11 @@ button.menu-toggle {
             transform: rotate(45deg) scale(0.8);
     visibility: hidden;
     opacity: 0;
-    -webkit-transition: all 200ms linear;
-            transition: all 200ms linear; }
+    transition: all 200ms linear; }
   .image-popup .link-marker,
   .popup-gallery-item .link-marker {
     opacity: 0;
-    -webkit-transition: all 200ms linear;
-            transition: all 200ms linear; }
+    transition: all 200ms linear; }
     .image-popup .link-marker:before,
     .popup-gallery-item .link-marker:before {
       position: absolute;
@@ -1742,7 +1730,7 @@ button.menu-toggle {
     background: #fafafa;
     padding: 30px; }
   .comment-list .comment .comment-meta {
-    background: #e8eff7;
+    background: #e8f0f7;
     font-size: 0;
     line-height: 0; }
     .comment-list .comment .comment-meta img {
@@ -1917,7 +1905,7 @@ object {
     margin-right: auto;
     float: left; }
   .wp-caption .wp-caption-text {
-    background: #e8eff7;
+    background: #e8f0f7;
     padding: 10px 0;
     margin: 0;
     font-size: 12px;

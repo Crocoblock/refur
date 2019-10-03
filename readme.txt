@@ -1,16 +1,16 @@
 === Refur ===
 
-Contributors: tefox
+Contributors: Crocoblock
 Tags: translation-ready, custom-background, theme-options, custom-menu, post-formats, threaded-comments
 
-Requires at least: 4.3
-Tested up to: 4.3.1
+Requires at least: 4.7
+Tested up to: 5.2
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-Refur theme from TeFox will be a good solution for your business or blog website as it suits for both. Its minimalistic and mixed layout makes it work for both corporate website and blog one.
+Refur theme from Crocoblock will be a good solution for your business or blog website as it suits for both. Its minimalistic and mixed layout makes it work for both corporate website and blog one.
 
 
 == Installation ==
@@ -60,7 +60,7 @@ Refur theme from TeFox will be a good solution for your business or blog website
 * Magnific Popup - http://dimsemenov.com/plugins/magnific-popup/ licensed under MIT License (MIT) Copyright (c) 2015 Dmitry Semenov
 * slick.js - Ken Wheeler, http://kenwheeler.github.io, licensed under MIT License (MIT)
 * other CSS and JS files licensed under GPLv2+
-* The image screenshot.png created by teFox team and licensed under GPL v2+
+* The image screenshot.png created by Crocoblock team and licensed under GPL v2+
 * Images used for demo and screenshot capture getting from www.pexels.com and released under the CC0 license. (soureces - https://www.pexels.com/photo/landscape-nature-sunset-trees-479/, https://www.pexels.com/photo/rainy-plant-leaves-rain-707/);
 * Default header image (images/header-image.png) is licensed under  Creative Commons Zero (CC0) license (source - https://www.pexels.com/photo/night-trees-milky-way-stars-8990/)
 * Google fonts used in theme released under the Apache License, version 2.0 and SIL Open Font License 1.1
