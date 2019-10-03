@@ -24,6 +24,17 @@ function refur_body_classes( $classes ) {
 add_filter( 'body_class', 'refur_body_classes' );
 
 /**
+ * Support `wp_body_open` action, available since WordPress 5.2.
+ */
+function refur_body_open() {
+	if ( function_exists( 'wp_body_open' ) ) {
+		wp_body_open();
+	} else {
+		do_action( 'wp_body_open' );
+	}
+}
+
+/**
  * Get allowed socials data (to add options into customizer and output on front)
  */
 function refur_allowed_socials() {
