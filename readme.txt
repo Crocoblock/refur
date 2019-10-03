@@ -50,7 +50,11 @@ Refur theme from Crocoblock will be a good solution for your business or blog we
 
 = 1.0.5 =
 * UPD: Screenshot;
-* UPD: Images license inforamtion;
+* UPD: Images license inforamation;
+
+= 1.1.0 =
+* ADD: compatibility with Elementor and JetTheme Core plugins
+* UPD: minimized vendor js scripts
 
 == Credits ==
 
