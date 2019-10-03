@@ -17,7 +17,7 @@ Refur WordPress theme, Copyright (C) 2015-2019, Crocoblock
 Refur is distributed under the terms of the GNU GPL
 
 Refur is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later. 
+Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
@@ -1291,7 +1291,8 @@ button.menu-toggle {
     color: #fff;
     cursor: pointer;
     opacity: 0;
-    transition: all 200ms linear; }
+    transition: all 200ms linear;
+    z-index: 3; }
     .entry-gallery-prev:before, .entry-gallery-next:before {
       font-family: FontAwesome; }
     .entry-gallery-prev:hover, .entry-gallery-next:hover {
@@ -1389,6 +1390,9 @@ button.menu-toggle {
   margin: 0 0 30px;
   font-size: 26px;
   line-height: 30px; }
+
+.page-header .taxonomy-description {
+  margin: 0 0 30px; }
 
 .posts-listing {
   display: -webkit-flex;
