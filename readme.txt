@@ -5,7 +5,7 @@ Tags: translation-ready, custom-background, theme-options, custom-menu, post-for
 
 Requires at least: 4.7
 Tested up to: 5.2
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,8 @@ Refur theme from Crocoblock will be a good solution for your business or blog we
 
 = 1.1.0 =
 * ADD: compatibility with Elementor and JetTheme Core plugins
+* ADD: support of `wp_body_open` function
+* ADD: theme support for selective refresh for widgets
 * UPD: minimized vendor js scripts
 
 == Credits ==

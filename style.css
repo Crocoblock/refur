@@ -1200,8 +1200,9 @@ button.menu-toggle {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
-.site-content {
-  padding: 60px 0 40px; }
+.site-content > .container {
+  padding-top: 60px;
+  padding-bottom: 40px; }
 
 .entry-header {
   padding: 0; }
