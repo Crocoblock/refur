@@ -142,7 +142,7 @@ function refur_scripts() {
 	$base_url = get_template_directory_uri();
 
 	wp_enqueue_style( 'refur-fonts', refur_fonts_url() );
-	wp_enqueue_style( 'refur-font-awesome', $base_url . '/css/font-awesome.min.css', false, '4.4.0' );
+	wp_enqueue_style( 'font-awesome', $base_url . '/css/font-awesome.min.css', false, '4.4.0' );
 	wp_enqueue_style( 'refur-style', get_stylesheet_uri(), false, $theme_version );
 
 	wp_enqueue_script( 'jquery-slick', $base_url . '/js/slick.min.js', array( 'jquery' ), '1.8.1', true );
