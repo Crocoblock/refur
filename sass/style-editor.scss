@@ -1,0 +1,92 @@
+/*!
+Refur Editor Styles
+*/
+
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/** === Content Width === */
+
+.wp-block {
+	max-width: calc(100% - 60px);
+
+	@media( min-width: 600px ) {
+		max-width: 1170px;
+	}
+
+	// Only the top level blocks need specific widths, therefore override for every nested block.
+	.wp-block {
+		width: 100%;
+	}
+}
+
+/** === Base Typography === */
+
+body {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(1);
+	line-height: $font__line-height-body;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: $font__headings;
+	font-weight: normal;
+	padding: 0 0 20px 0;
+	margin: 0;
+	color: $color__headings;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 34px;
+	padding: 0 0 25px 0;
+}
+h2 {
+	font-size: 26px;
+	line-height: 30px;
+	padding: 0 0 25px 0;
+}
+h3 {
+	font-size: 22px;
+	line-height: 26px;
+	padding: 0 0 25px 0;
+}
+h4 {
+	font-size: 18px;
+	line-height: 22px;
+}
+h5 {
+	font-size: 16px;
+	line-height: 20px;
+}
+h6 {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+p {
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}

@@ -1,0 +1,69 @@
+/*!
+Refur Editor Styles
+*/
+/** === Content Width === */
+.wp-block {
+  max-width: calc(100% - 60px); }
+  @media (min-width: 600px) {
+    .wp-block {
+      max-width: 1170px; } }
+  .wp-block .wp-block {
+    width: 100%; }
+
+/** === Base Typography === */
+body {
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px; }
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-family: "Poppins", "Roboto", sans-serif;
+  font-weight: normal;
+  padding: 0 0 20px 0;
+  margin: 0;
+  color: #464C51; }
+
+h1 {
+  font-size: 30px;
+  line-height: 34px;
+  padding: 0 0 25px 0; }
+
+h2 {
+  font-size: 26px;
+  line-height: 30px;
+  padding: 0 0 25px 0; }
+
+h3 {
+  font-size: 22px;
+  line-height: 26px;
+  padding: 0 0 25px 0; }
+
+h4 {
+  font-size: 18px;
+  line-height: 22px; }
+
+h5 {
+  font-size: 16px;
+  line-height: 20px; }
+
+h6 {
+  font-size: 14px;
+  line-height: 20px; }
+
+p {
+  margin: 0;
+  padding: 0 0 20px 0; }
+
+a {
+  color: #75A3D1; }
+  a:visited {
+    color: #75A3D1; }
+  a:hover, a:focus, a:active {
+    color: #2E4051; }
+  a:focus {
+    outline: thin dotted; }
+  a:hover, a:active {
+    outline: 0; }
