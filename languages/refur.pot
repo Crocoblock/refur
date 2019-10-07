@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Refur\n"
-"POT-Creation-Date: 2019-10-04 12:29+0300\n"
+"POT-Creation-Date: 2019-10-07 17:06+0300\n"
 "PO-Revision-Date: 2016-01-12 22:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -50,19 +50,19 @@ msgstr ""
 msgid "Primary Menu"
 msgstr ""
 
-#: functions.php:112
+#: functions.php:127
 msgid "Sidebar Main"
 msgstr ""
 
-#: functions.php:122
+#: functions.php:137
 msgid "Sidebar Footer"
 msgstr ""
 
-#: functions.php:172 functions.php:179 functions.php:186
+#: functions.php:187 functions.php:194 functions.php:201
 msgid "on"
 msgstr ""
 
-#: functions.php:191
+#: functions.php:206
 msgid "latin,latin-ext"
 msgstr ""
 
@@ -307,21 +307,21 @@ msgstr ""
 msgid "Post navigation"
 msgstr ""
 
-#: template-parts/404.php:15
+#: template-parts/404.php:14
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: template-parts/404.php:19
+#: template-parts/404.php:18
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
 
-#: template-parts/404.php:31
+#: template-parts/404.php:30
 msgid "Most Used Categories"
 msgstr ""
 
-#: template-parts/404.php:50
+#: template-parts/404.php:49
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
